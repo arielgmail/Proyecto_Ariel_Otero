@@ -23,9 +23,9 @@
                 <h5>Aqui te dejamos los mejores estrenos de Septiembre que se van a ir publicando en las plataformas de Streaming</h5></p>
         </article>
 
-        <img src="disney.jpg" alt="Descripción de la imagen">
-        <img src="netflix.jpg" alt="Descripción de la imagen">
-        <img src="HBOMAX.png" alt="Descripción de la imagen">
+        <img src="https://github.com/arielgmail/Proyecto_Ariel_Otero/blob/9e3fd343d9ab9bf595aa0faa1af647992754f2cc/disney.jpg" alt="Descripción de la imagen">
+        <img src="https://github.com/arielgmail/Proyecto_Ariel_Otero/blob/9e3fd343d9ab9bf595aa0faa1af647992754f2cc/netflix.jpg" alt="Descripción de la imagen">
+        <img src="https://github.com/arielgmail/Proyecto_Ariel_Otero/blob/9e3fd343d9ab9bf595aa0faa1af647992754f2cc/HBOMAX.png" alt="Descripción de la imagen">
         <!-- Repite estos bloques para otras noticias -->
     </main>
     <footer>
