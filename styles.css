@@ -1,0 +1,228 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos específicos para la página de inicio */
+.page-home section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh; /* Requisito de altura mínima */
+}
+
+/* Estilos para hacer una sección responsive */
+@media (max-width: 768px) {
+    .page-home section {
+        padding: 10px;
+    }
+}
+
+/* Agregamos una nueva clase para los enlaces de la barra de navegación cuando el mouse está sobre ellos */
+nav a:hover {
+    background-color: #FDB813;
+    color: black;
+}
+
+/* Estilo de fondo oscuro para la ventana emergente */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Estilos para la ventana emergente */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    z-index: 2;
+}
+
+/* Estilos para la página de series */
+.page-series {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-series .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.page-series nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.page-series nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.page-series nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.page-series main {
+    padding: 20px;
+}
+
+.page-series footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos específicos para la página de inicio */
+.page-series section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh; /* Requisito de altura mínima */
+}
+
+/* Estilos para hacer una sección responsive */
+@media (max-width: 768px) {
+    .page-series section {
+        padding: 10px;
+    }
+}
+
+/* Estilos para la página de películas */
+.page-peliculas {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.page-peliculas .header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.page-peliculas .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.page-peliculas .book {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #888888;
+    margin: 10px;
+}
+
+.page-peliculas .book img {
+    max-width: 150px;
+}
+
+.page-peliculas .footer {
+    background: linear-gradient(90deg, #333, #f0f0f0, #333);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Estilos para la página de Noticias */
+.page-Noticias {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-Noticias .header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.page-Noticias .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.page-Noticias .section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh; /* Requisito de altura mínima */
+}
+
+.page-Noticias h1 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.page-Noticias h5 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
