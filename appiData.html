@@ -4,34 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Consumir una API con JavaScript</title>
+    <title>Proyecto_FInal</title>
 </head>
 <style>
     body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    text-align: center;
-}
+        font-family: Arial, sans-serif;
+        background-color: #b88282;
+        text-align: center;
+    }
 
-h1 {
-    color: #333;
-}
+    h1 {
+        color: #333;
+    }
 
-#apiData {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    margin: 0 auto;
-}
+    #apiData {
+        background-color: #b93030;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        width: 300px;
+        margin: 0 auto;
+        text-align: center; /* Para centrar el contenido */
+    }
 
+    /* Estilo del hipervínculo */
+    #hipervinculo {
+        display: block; /* Hace que el enlace ocupe todo el ancho del contenedor */
+        color: #fff; /* Color del texto del enlace */
+        text-decoration: none; /* Quita el subrayado del enlace */
+        margin-top: 10px; /* Espacio superior para separarlo del contenido anterior */
+    }
+
+    #hipervinculo:hover {
+        text-decoration: underline; /* Agrega subrayado al pasar el ratón por encima */
+    }
 </style>
 <body>
-    
-    <h1>Información de la API JSONPlaceholder</h1>
-    <div id="apiData"></div>
-    
-    <script src="script.js"></script>
+    <h1>Información de la API</h1>
+    <div id="apiData">
+        <!-- Hipervínculo dentro del rectángulo rojo -->
+        <a id="hipervinculo" href="https://github.com/arielgmail/Proyecto_Ariel_Otero">Visitar Proyecto en GitHub</a>
+    </div>
 </body>
 </html>
