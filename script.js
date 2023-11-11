@@ -75,5 +75,9 @@ fetch('c:\Users\Mi Pc\Desktop\curso 3df\Trabajo Final 3dF\apiData.html')
             <p>${data.body}</p>
         `;
     })
-    .catch(error => console.error('Error al consumir la API: ', error));
-
+    $(document).ready(function(){
+        $('#carouselExample').carousel({
+          interval: 3000, // Cambia cada 3 segundos (ajusta según sea necesario)
+          keyboard: true
+        });
+      });
