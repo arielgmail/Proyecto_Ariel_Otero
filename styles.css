@@ -23,7 +23,7 @@ nav ul li {
     margin-right: 20px;
 }
 
-/* Agregar una clase para estilos comunes de los títulos */
+/* Estilos comunes de los títulos */
 h2, h3 {
     color: #333;
 }
@@ -152,3 +152,9 @@ iframe {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+/* Agrega estilos personalizados para las flechas de navegación */
+.carousel-control-prev, .carousel-control-next {
+    // Estilos personalizados aquí
+  }
+  
