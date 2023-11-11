@@ -1,3 +1,34 @@
+/* Cambios en el selector por clase y box-modeling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Agregar una clase para estilos comunes de los títulos */
+h2, h3 {
+    color: #333;
+}
+
+
 /* Estilos generales */
 body {
     font-family: 'Roboto', sans-serif;
@@ -111,4 +142,13 @@ iframe {
 #mensaje {
     color: red;
     margin-top: 10px;
+}
+
+.popup input,
+.popup button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
