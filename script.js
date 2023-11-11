@@ -1,3 +1,27 @@
+// Cambios en eventos y validación de formulario
+document.getElementById('open-popup-btn').addEventListener('click', function() {
+    document.querySelector('.overlay').style.display = 'block';
+    document.querySelector('.popup').style.display = 'block';
+});
+
+document.getElementById('close-popup-btn').addEventListener('click', function() {
+    document.querySelector('.overlay').style.display = 'none';
+    document.querySelector('.popup').style.display = 'none';
+});
+
+document.getElementById('subscribe-btn').addEventListener('click', function() {
+    const email = document.getElementById('email').value;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (emailRegex.test(email)) {
+        alert('SUSCRIPTO CON ÉXITO');
+        document.querySelector('.overlay').style.display = 'none';
+        document.querySelector('.popup').style.display = 'none';
+    } else {
+        alert('Por favor, ingresa una dirección de correo electrónico válida.');
+    }
+});
+
 // Abre la ventana emergente al hacer clic en el botón "Abrir Ventana Emergente"
 document.getElementById('open-popup-btn').addEventListener('click', function() {
     document.querySelector('.overlay').style.display = 'block';
